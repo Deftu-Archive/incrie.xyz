@@ -6,7 +6,7 @@ export default function Home() {
         <>
             <DefaultLayout>
                 <Container display="flex" flexDirection="column" justifyContent="center" alignItems="center" style={{ textAlign: "center" }}>
-                        <Typography variant="h1" color="white">
+                        <Typography variant="h3" color="white">
                             This website is still under construction, please come back later.
                         </Typography>
                 </Container>
