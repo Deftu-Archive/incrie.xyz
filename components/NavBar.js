@@ -6,7 +6,6 @@ import {
     Link,
     Typography
 } from "@mui/material";
-import Image from "next/image";
 import theme from "../styles/theme";
 
 export default function NavBar() {
@@ -16,7 +15,7 @@ export default function NavBar() {
                 <Container>
                     <Toolbar disableGutters>
                         <Link href="/" variant="h4" color="inherit" underline="hover" display="flex" justifyContent="center" alignItems="center">
-                            <Image src="/logo-transparent.png" width="64px" height="64x" />
+                            <img alt="" src="/logo-transparent.png" width="64px" height="64x" />
                             Incrie Technologies
                         </Link>
                         <div className={theme.grow} />
