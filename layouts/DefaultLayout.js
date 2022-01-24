@@ -18,7 +18,7 @@ export default function DefaultLayout({
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="theme-color" content="#990000" />
-                <meta http-equiv="content-language" content="en" />
+                <meta httpEquiv="content-language" content="en" />
                 <meta name="copyright" content="Incrie Technologies, 2022" />
                 <meta name="keywords" content="Incrie, Minecraft, Software, Tech, Open-Source" />
                 <meta name="robots" content="index, follow" />

@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { Container, Typography } from '@mui/material';
 import DefaultLayout from '../layouts/DefaultLayout';
 
