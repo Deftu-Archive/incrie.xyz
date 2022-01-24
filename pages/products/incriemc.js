@@ -5,6 +5,12 @@ import DefaultLayout from '../../layouts/DefaultLayout';
 export default function IncrieMC() {
     return (
         <>
+            <Head>
+                <title>Incrie Technologies - IncrieMC</title>
+
+                <meta name="description" content="IncrieMC is a complex API built for Minecraft modding." />
+                <meta property="og:description" content="IncrieMC is a complex API built for Minecraft modding." />
+            </Head>
             <DefaultLayout>
                 <Container display="flex" flexDirection="column" justifyContent="center" alignItems="center" style={{ textAlign: "center" }}>
                         <Typography variant="h3" color="white">
@@ -12,12 +18,6 @@ export default function IncrieMC() {
                         </Typography>
                 </Container>
             </DefaultLayout>
-            <Head>
-                <title>Incrie Technologies - IncrieMC</title>
-
-                <meta name="description" content="IncrieMC is a complex API built for Minecraft modding." />
-                <meta property="og:description" content="IncrieMC is a complex API built for Minecraft modding." />
-            </Head>
         </>
     );
 }

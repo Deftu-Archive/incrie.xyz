@@ -5,6 +5,12 @@ import DefaultLayout from '../layouts/DefaultLayout';
 export default function Products() {
     return (
         <>
+            <Head>
+                <title>Incrie Technologies - Products</title>
+
+                <meta name="description" content="Incrie Technologies' product list." />
+                <meta property="og:description" content="Incrie Technologies' product list." />
+            </Head>
             <DefaultLayout>
                 <Container display="flex" flexDirection="column" justifyContent="center" alignItems="center" style={{ textAlign: "center" }}>
                         <Typography variant="h3" color="white">
@@ -12,12 +18,6 @@ export default function Products() {
                         </Typography>
                 </Container>
             </DefaultLayout>
-            <Head>
-                <title>Incrie Technologies - Products</title>
-
-                <meta name="description" content="Incrie Technologies' product list." />
-                <meta property="og:description" content="Incrie Technologies' product list." />
-            </Head>
         </>
     );
 }

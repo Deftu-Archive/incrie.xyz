@@ -13,6 +13,9 @@ const theme = createTheme({
         },
         background: {
             main: "#1f1f1f"
+        },
+        text: {
+            main: "#FFFFFF"
         }
     }
 });

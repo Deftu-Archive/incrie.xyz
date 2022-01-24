@@ -4,7 +4,7 @@ import {
     Box,
     Toolbar,
     Link,
-    Typography
+    Button
 } from "@mui/material";
 import theme from "../styles/theme";
 
@@ -18,7 +18,14 @@ export default function NavBar() {
                             <img alt="" src="/logo-transparent.png" width="64px" height="64x" />
                             Incrie Technologies
                         </Link>
-                        <div className={theme.grow} />
+                        <Box sx={{ flexGrow: 1 }} />
+                        <Box sx={{ display: { xs: "none", md: "flex" } }}>
+                            <Link href="/products">
+                                <Button variant="text" style={{ color: theme.palette.text.main }}>
+                                    Products
+                                </Button>
+                            </Link>
+                        </Box>
                     </Toolbar>
                 </Container>
             </AppBar>

@@ -5,13 +5,6 @@ import theme from '../styles/theme';
 export default function Products() {
     return (
         <>
-            <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" style={{ minHeight: "100vh", backgroundColor: theme.palette.background.main, textAlign: "center" }}>
-                <Typography variant="h3" color="white">
-                    404
-                    <br />
-                    Page Not Found
-                </Typography>
-            </Box>
             <Head>
                 <title>Incrie Technologies - 404</title>
                 <link rel="icon" type="image/x-icon" href="/logo-transparent-coloured.png" />
@@ -29,6 +22,13 @@ export default function Products() {
                 <meta property="og:title" content="Incrie Technologies" />
                 <meta property="og:description" content="The content for this URL could not be found." />
             </Head>
+            <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center" style={{ minHeight: "100vh", backgroundColor: theme.palette.background.main, textAlign: "center" }}>
+                <Typography variant="h3" color="white">
+                    404
+                    <br />
+                    Page Not Found
+                </Typography>
+            </Box>
         </>
     );
 }
