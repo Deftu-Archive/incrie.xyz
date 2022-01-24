@@ -1,7 +1,8 @@
+import Head from 'next/head';
 import { Container, Typography } from '@mui/material';
 import DefaultLayout from '../layouts/DefaultLayout';
 
-export default function Home() {
+export default function Products() {
     return (
         <>
             <DefaultLayout>
@@ -12,8 +13,10 @@ export default function Home() {
                 </Container>
             </DefaultLayout>
             <Head>
-                <meta name="description" content="Home page for the Incrie Technologies website." />
-                <meta property="og:description" content="Home page for the Incrie Technologies website." />
+                <title>Incrie Technologies - Products</title>
+
+                <meta name="description" content="Incrie Technologies' product list." />
+                <meta property="og:description" content="Incrie Technologies' product list." />
             </Head>
         </>
     );
