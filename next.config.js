@@ -8,8 +8,8 @@ module.exports = {
                 permanent: true
             },
             {
-                source: "/github/*",
-                destination: "https://github.com/IncrieTechnologies/*",
+                source: "/github*",
+                destination: "https://github.com/IncrieTechnologies*",
                 permanent: true
             }
         ]
